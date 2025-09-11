@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <title>Mobile Restaurant Menu</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="modal-overlay"></div>
+    <header>
+      <h1>Jimmy's dinner</h1>
+      <h2>The best burgers and pizzas in town</h2>
+    </header>
+    <main id="main-part">
+      <section id="container">
+        <!--food list -->
+      </section>
+      <section id="order">
+        <!--food selection -->
+      </section>
+      <div class="modal-form">
+        <div class="modal-header">
+          <h5>Enter card details</h5>
+        </div>
+        <div class="modal-body">
+          <form action="#" method="get" class="form-cb">
+            <div class="form-name">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                pattern="[^\d]+"
+                placeholder="Enter your name "
+                required
+              />
+            </div>
+            <div class="form-cardNumber">
+              <input
+                type="tel"
+                name="cbNumber"
+                id="cbNumber"
+                minlength="16"
+                maxlength="16"
+                pattern="^\d{16}$"
+                placeholder="Enter CB number "
+                required
+              />
+            </div>
+            <div class="form-cvv">
+              <input
+                type="tel"
+                name="cvv"
+                id="cvv"
+                minlength="3"
+                maxlength="3"
+                pattern="^\d{3}$"
+                placeholder="Enter CVV "
+                required
+              />
+            </div>
+            <div class="form-btn">
+              <input id="pay-btn" type="submit" value="Pay" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="thanks">
+        <p class="thanks-paragraph">Thanks! Your order is on its way!</p>
+      </div>
+    </main>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

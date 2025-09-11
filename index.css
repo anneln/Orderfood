@@ -1,0 +1,273 @@
+* {
+  font-family: "Smythe", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+}
+
+body {
+  margin: 0 auto;
+  width: 600px;
+}
+
+header {
+  background-image: url("./images/backgroundHeader.png");
+  background-repeat: no-repeat;
+  padding-top: 3%;
+  width: 600px;
+  padding-bottom: 5%;
+  flex-shrink: 0;
+}
+
+header h1,
+header h2 {
+  padding-left: 39px;
+  line-height: 1.5rem;
+}
+
+main {
+  position: relative;
+}
+
+.btn {
+  border-radius: 3px;
+  background: #16db99;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  display: flex;
+  width: 100%;
+  padding: 18px 175px 18px 194px;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  padding-top: 3rem;
+}
+
+/*food card*/
+.food-card {
+  display: flex;
+  border-bottom: 1px solid #d2d2d2;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food-article {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.food-img {
+  padding-left: 1.2rem;
+}
+
+.food-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.2rem;
+}
+
+.food-text h3,
+.food-text p {
+  margin: 0;
+}
+
+.div-plus {
+  padding-right: 1.2rem;
+}
+
+h1 {
+  color: #fff;
+  font-size: 39px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 22px;
+}
+
+h3,
+h4 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.food-description {
+  color: #8b8b8b;
+  font-size: 16px;
+}
+
+.fa-plus {
+  border: 1px solid #dedede;
+  border-radius: 50%;
+  padding: 1.1rem;
+}
+
+.fa-plus:hover {
+  cursor: pointer;
+}
+
+/*your order part*/
+
+#order {
+  display: block;
+}
+
+.order-card {
+  padding-right: 1.6rem;
+  padding-left: 2.5rem;
+}
+
+h4 {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.remove {
+  color: #bbb;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+.itemPrice,
+.price-amount {
+  align-self: center;
+}
+
+.itemName {
+  display: flex;
+  align-items: baseline;
+}
+
+.itemName h3 {
+  padding-right: 0.8rem;
+}
+
+/*total price*/
+
+.total-price {
+  border-top: 2px solid #393333;
+  display: flex;
+  justify-content: space-between;
+}
+.price-text {
+  font-size: 28px;
+}
+
+#purchase-btn {
+  align-items: stretch;
+  margin-bottom: 3rem;
+}
+
+/*modal*/
+
+.modal-form {
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;
+  padding: 2rem;
+  border-radius: 3.89px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  top: 10%;
+  width: 95%;
+  max-width: 480px;
+  max-height: 542.24px;
+  background-color: #fff;
+  position: fixed;
+}
+
+.modal-overlay {
+  background-color: rgba(117, 117, 117, 0.11);
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  position: fixed;
+  display: none;
+}
+
+input {
+  margin-bottom: 1.4rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.modal-header h5 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body input {
+  border-radius: 3.89px;
+  border: 1.297px solid #757575;
+  padding: 1rem;
+}
+
+.modal-body input,
+.modal-header h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pay-btn {
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  background: #16db99;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/*thanksmessage*/
+
+.thanks {
+  display: none;
+  padding: 0.6rem;
+  margin: 0 2rem;
+  border-radius: 3px;
+  background: #ecfdf5;
+}
+
+.thanks-paragraph {
+  color: #065f46;
+  font-family: Smythe;
+  font-size: 32px;
+  text-align: center;
+}

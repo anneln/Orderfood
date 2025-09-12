@@ -42,4 +42,4 @@ After payment, display a thank you message !
 - [x] Have a payment modal with compulsory form inputs
 - [x] Deploying with Netlify & Github desktop
 
-:tada: :tada:
+https://mobilerestorderingapp.netlify.app/ :tada: :tada:

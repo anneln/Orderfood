@@ -6,12 +6,12 @@ this is a solo project to create a mobile restaurant ordering application
 
 The app shouls follow 4 main stages :
 
-1. Menu display
+1. <ins>Menu display</ins>
 
 - Display 3 items on the menu.
 - Users can add item by clicking on plus (+) button
 
-2. Order section
+2. <ins>Order section</ins>
 
 Once an item is added, the order section is displaying showing:
 
@@ -22,7 +22,7 @@ Once an item is added, the order section is displaying showing:
 
 3. <ins>Payment modal</ins>
 
-It's a form with 3 input fiels:
+It's a form with 3 input fields:
 
 - Name
 - Credit card number
@@ -30,9 +30,9 @@ It's a form with 3 input fiels:
   The name field shoud not accept number caracters
   All fields must be filled to can submit the form and be able to click on the “Pay” button.
 
-4. Confirmation message
+4. <ins>Confirmation message</ins>
 
-After payment, display a thank you message.
+After payment, display a thank you message !
 
 ## Technicals requirements
 

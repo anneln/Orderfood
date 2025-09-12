@@ -1,6 +1,6 @@
 # Mobile Ordering App for a restaurant
 
-This is a solo project to create a mobile restaurant ordering application
+This is a solo project to create a mobile restaurant ordering application.
 
 ## What should the app do ?
 

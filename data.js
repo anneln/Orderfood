@@ -1,7 +1,7 @@
 const menuArray = [
   {
     name: "Pizza",
-    image: "images/pizza.png",
+    image: "/images/pizza.png",
     ingredients: ["pepperoni", "mushrom", "mozarella"],
     id: 0,
     price: 14,
@@ -9,7 +9,7 @@ const menuArray = [
   },
   {
     name: "Hamburger",
-    image: "images/hamburger.png",
+    image: "/images/hamburger.png",
     ingredients: ["beef", "cheese", "lettuce"],
     price: 12,
     emoji: "🍔",
@@ -17,7 +17,7 @@ const menuArray = [
   },
   {
     name: "Beer",
-    image: "images/beer.png",
+    image: "/images/beer.png",
     ingredients: ["grain, hops, yeast, water"],
     price: 12,
     emoji: "🍺",

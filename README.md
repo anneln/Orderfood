@@ -11,7 +11,7 @@ The app shouls follow 4 main stages :
 - Display 3 items on the menu.
 - Users can add item by clicking on plus (+) button
 
-2. Order section
+2. Order section  
    Once an item is added, the order section is displaying showing:
 
 - the list of selected items
@@ -19,7 +19,7 @@ The app shouls follow 4 main stages :
 - to remove option on each item
   When the user clicks the "complete order" button, the payment modal is displaying.
 
-3. Payment modal
+3. Payment modal</br>
    It's a form with 3 input fiels:
 
 - Name

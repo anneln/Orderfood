@@ -39,4 +39,4 @@ The app shouls follow 4 main stages :
 - [x] Have a payment modal with compulsory form inputs
 - [x] Deploying with Netlify & Github desktop
 
-:tada:
+:tada: :tada:

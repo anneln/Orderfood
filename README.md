@@ -2,7 +2,7 @@
 
 this is a solo project to create a mobile restaurant ordering application
 
-## What shoud the app do ?
+## What should the app do ?
 
 The app shouls follow 4 main stages :
 

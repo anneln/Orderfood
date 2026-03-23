@@ -34,7 +34,7 @@ It's a form with 3 input fields:
 
 After payment, display a thank you message !
 
-## Technicals requirements
+## Technical requirements
 
 - [x] Follow design spec on Figma
 - [x] Render the menu option using Javascript
